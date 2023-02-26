@@ -23,6 +23,12 @@ In this challenge, I completed the following steps:
 - Created the "vine_df" DataFrame that has the "review_id", "star_rating", "helpful_votes", "total_votes", and "vine" columns.
 
 ### Load
-- Loaded the four DataFrames for each dataset into an RDS instance.
+- Loaded the four DataFrames for each dataset into an RDS instance. Thsi involved configuring a AWS RDS with public access.
 
 ### Part 2: Extract two Amazon customer review datasets and use either SQL or PySpark to analyze whether reviews from Amazon's Vine program are trustworthy.
+
+## Resources
+ Amazon Customer Review Datasets: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
+ Datasets used: 
+ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Mobile_Apps_v1_00.tsv.gz
+ https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gz
