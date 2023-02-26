@@ -27,6 +27,17 @@ In this challenge, I completed the following steps:
 
 ### Part 2: Extract two Amazon customer review datasets and use either SQL or PySpark to analyze whether reviews from Amazon's Vine program are trustworthy.
 
+## Process
+
+In this challenge, I ran queries in postgressql to comeplete the following analysis:
+
+### Amazon Reviews Analysis: Mobile Apps
+- There were a total of 321 unique customers who gave more than 100 reviews in the dataset
+- The average number of reviews given by each unqiue customer was 2.1357
+
+### Amazon Reviews Analysis: Furniture
+
+
 ## Resources
  Amazon Customer Review Datasets: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
  Datasets used: 
