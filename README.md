@@ -34,6 +34,8 @@ In this challenge, I ran queries in postgressql to comeplete the following analy
 ### Amazon Reviews Analysis: Mobile Apps
 - There were a total of 321 unique customers who gave more than 100 reviews in the dataset
 - The average number of reviews given by each unqiue customer was 2.1357
+- The average star rating of mobile apps was 3.981
+- The total count of reviews with a 5 star rating was 2,699,889
 
 ### Amazon Reviews Analysis: Furniture
 
