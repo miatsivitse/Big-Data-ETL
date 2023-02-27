@@ -23,13 +23,13 @@ In this challenge, I completed the following steps:
 - Created the "vine_df" DataFrame that has the "review_id", "star_rating", "helpful_votes", "total_votes", and "vine" columns.
 
 ### Load
-- Loaded the four DataFrames for each dataset into an RDS instance. Thsi involved configuring a AWS RDS with public access.
+- Loaded the four DataFrames for each dataset into an RDS instance. This involved configuring a AWS RDS with public access.
 
 ### Part 2: Extract two Amazon customer review datasets and use either SQL or PySpark to analyze whether reviews from Amazon's Vine program are trustworthy.
 
 ## Process
 
-In this challenge, I ran queries in postgresql to comeplete the following analysis:
+In this challenge, I ran queries in postgresql to complete the following analysis:
 
 ### Amazon Reviews Analysis: Mobile Apps
 - There were a total of 42,721 unique customers who gave more than 10 reviews in the dataset
@@ -42,6 +42,12 @@ In this challenge, I ran queries in postgresql to comeplete the following analys
 - The average number of reviews given by each unqiue customer was 1.20
 - The average star rating of mobile apps was 4.08
 - The total count of reviews with a 5 star rating was 447,716
+
+I found that overall, each unqiue customer gave more total reviews for mobile apps than furniture. This insight was evidenced by the total number of customers who gave more than 10 reviews between the two datasets, as well as the average number of reviews given by each customer. 
+
+The average star rating of reviews was very similar, but slightly higher on furniture (avg = 4.08) compared to mobile apps (avg = 3.98 stars).
+
+Overall, mobile apps had a higher total quantity of five-star reviews given by customers in comparison to furniture reviews. 
 
 ## Resources
  Amazon Customer Review Datasets: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
