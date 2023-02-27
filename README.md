@@ -29,7 +29,7 @@ In this challenge, I completed the following steps:
 
 ## Process
 
-In this challenge, I ran queries in postgressql to comeplete the following analysis:
+In this challenge, I ran queries in postgresql to comeplete the following analysis:
 
 ### Amazon Reviews Analysis: Mobile Apps
 - There were a total of 42,721 unique customers who gave more than 10 reviews in the dataset
