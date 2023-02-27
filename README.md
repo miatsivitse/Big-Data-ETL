@@ -32,13 +32,16 @@ In this challenge, I completed the following steps:
 In this challenge, I ran queries in postgressql to comeplete the following analysis:
 
 ### Amazon Reviews Analysis: Mobile Apps
-- There were a total of 321 unique customers who gave more than 100 reviews in the dataset
-- The average number of reviews given by each unqiue customer was 2.1357
-- The average star rating of mobile apps was 3.981
+- There were a total of 42,721 unique customers who gave more than 10 reviews in the dataset
+- The average number of reviews given by each unqiue customer was 2.13
+- The average star rating of mobile apps was 3.98
 - The total count of reviews with a 5 star rating was 2,699,889
 
 ### Amazon Reviews Analysis: Furniture
-
+- There were a total of 196 unique customers who gave more than 10 reviews in the dataset
+- The average number of reviews given by each unqiue customer was 1.20
+- The average star rating of mobile apps was 4.08
+- The total count of reviews with a 5 star rating was 447,716
 
 ## Resources
  Amazon Customer Review Datasets: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
